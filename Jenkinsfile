@@ -27,6 +27,7 @@ pipeline {
       when {
         branch 'development'
       }
+      
       steps {
         echo "Stashing Local Changes"
         sh "git stash"
